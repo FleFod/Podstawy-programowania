@@ -12,8 +12,8 @@ namespace Zadanie_2
         {
             //Napisać program wczytujący imię użytkownika i wypisujący na ekranie tekst "Witaj imię!".
             string imie;
-            Console.WriteLine("Podaj swoje imie: ");
-            imie = Console.ReadLine();
+            Console.WriteLine("Podaj swoje imie: "); 
+            imie = Console.ReadLine();   //pyta o imie
             Console.WriteLine("Witaj {0}", imie);
             Console.ReadKey(true); //pauza
         }
