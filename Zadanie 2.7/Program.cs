@@ -49,7 +49,7 @@ namespace Zadanie_2._7
             else if (a >= 1) { a -= 1; Console.WriteLine("I"); }
 
             Console.ReadKey(false);
-
+            
             
         }
     }
